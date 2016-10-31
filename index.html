@@ -43,6 +43,7 @@
 
 <link type="text/css" media="screen" rel="stylesheet" href="responsive-tables.css" />
 <script type="text/javascript" src="js/responsive-tables.js"></script>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
 
     
@@ -68,6 +69,14 @@
       <h1>Seznam článků</h1>
     </div>
     </div>
+    <div class="container">
+    <div class="data-alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Odeslano!</strong> <span>Váš článek byl úspěšně odeslán.</span>
+</div>
+</div>
+
+
 <br>
 <br>
 <br>
@@ -82,8 +91,8 @@
 <table id="clanky" class="responsive">
   <thead>
     <tr>
-      <th width="200">Název článku</th>
-      <th width="300">Datum</th>
+      <th id="nazev" width="300">Název článku</th>
+      <th width="200">Datum</th>
       <th width="150">Autor</th>
       <th width="150">Obrázek</th>
     </tr>

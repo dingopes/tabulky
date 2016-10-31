@@ -83,12 +83,48 @@ tr {
     text-align: center;
 }
 
+tr > :first-child {
+    text-align: left;
+}
+
+#nazev {
+    text-align: center;
+}
+
 #clanky th {
     padding-top: 11px;
     padding-bottom: 11px;
     background-color:#00abd0;
     color:white;
     }
+
+.data-alert {
+    padding: 20px;
+    background: #f7f7f7;
+
+  color: #333;
+
+  border: none;
+
+  border-left: 6px solid #008CBA;
+
+  box-shadow: 0 5px 8px -6px rgba(0, 0, 0, 0.2); 
+}
+.closebtn {
+    margin-left: 15px;
+    color: #008CBA;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#upozorneni {
+    margin-left: 10px;
+}
+
 
 @media only screen and (max-width: 64.063em) {
 
